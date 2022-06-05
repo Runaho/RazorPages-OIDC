@@ -1,0 +1,13 @@
+﻿@page
+@model RazorPages_OIDC.Pages.CallAPIModel
+@{
+}
+
+<p><a asp-page="CallAPI" asp-page-handler="CallApiAsUserTyped">Call Api As User Typed</a></p>
+<p><a asp-page="CallAPI" asp-page-handler="CallApiAsUser">Call Api As User</a></p>
+
+<br />
+<hr />
+<div class="container" align="center">
+    <pre>@Model.ApiResponse</pre>
+</div>
