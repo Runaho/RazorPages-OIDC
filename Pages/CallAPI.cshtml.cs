@@ -20,12 +20,6 @@ namespace RazorPages_OIDC.Pages
             _httpClientFactory = httpClientFactory;
         }
 
-        public IActionResult OnGetLogout()
-        {
-            SignOut("cookie", "oidc");
-            return RedirectToPage("Index");
-        }
-
         public async Task<IActionResult> OnGetCallApiAsUser()
         {
             var httpClient = _httpClientFactory.CreateClient("user_client");
