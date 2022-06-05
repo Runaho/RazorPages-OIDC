@@ -10,8 +10,6 @@ This is a simple Razor Pages application based on [Identity Model Github Project
 
 ## Tech
 
-Dillinger uses a number of open source projects to work properly:
-
 - [.Net Core 6.0.5](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
 - [Identity Model AspNetCore 4.2.0](https://www.nuget.org/packages/IdentityModel.AspNetCore/)
 - [Service demo.duendesoftware.com](https://demo.duendesoftware.com)
